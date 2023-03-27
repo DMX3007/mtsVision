@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  top: 50%;
+  width: 75%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-js .vjs-control-bar {
+  background-color: #464646;
+}
+
+.super-vision {
+  margin-right: 15px !important;
+  transform: scale(0.5);
+  opacity: 0.7;
+}
+
+.super-vision:hover {
+  cursor: pointer;
+}
+
+.vjs-modal-dialog {
+  transition: all 2s ease;
+  background-color: #464646 !important;
+}
+
+.wrapper {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-container {
+  margin-top: 20px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal-item {
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-basis: 35%;
+  flex-shrink: 1;
+
+  color: #464646 !important;
+  text-align: center;
+  background-color: #FCEFD4 !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.modal-item:hover {
+  background-color: #D7AD58 !important;
+}
+
+.modal-item.pressed {
+  background-color: #DA970C !important;
+}
